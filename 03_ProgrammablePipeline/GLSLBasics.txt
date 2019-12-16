@@ -1,0 +1,18 @@
+GLSL (Graphics Library Shader Language) Basics
+
+attribute - incoming vertex data
+varying - interpolatable varying properties passed along to next process
+uniforms - properties typically shared by all vertices
+
+vec2 - a two dimensional vector
+vec3 - a three dimensional vector
+vec4 - a four dimensional vector (ex. a homogenized vec3)
+
+mat2 - a 2x2 matrix
+mat3 - a 3x3 matrix
+mat4 - a 4x4 matrix
+
+void main(void){} - required function of a shader
+gl_Position - required final calculated vertex position
+gl_fragColor - required final calculated pixel color
+

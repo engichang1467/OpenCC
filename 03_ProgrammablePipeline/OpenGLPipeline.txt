@@ -1,0 +1,40 @@
+CPU
+
++------------------+
+| Your CPU Program |  Vertex Data
++------------------+
+        ||
+GPU     ||
+       \\//
+        \/
++----------------------+
+| Vertex Processing    | Vertex Shader
+| local world eye clip |
++----------------------+
+        ||
+       \\//
+        \/
++----------------------------+
+| Perimitive Assembly        |
+| triangle quads lines points|
++----------------------------+
+        ||
+       \\//
+        \/
++-----------------------------+
+| Rasterization               |
+| multisampling and smoothing |
++-----------------------------+
+        ||
+       \\//
+        \/
++------------------------------+
+| Fragment Processing          |  Fragment Shader
+| textures stencil alpha depth |
++------------------------------+
+        ||
+       \\//
+        \/
++------------------+
+|   Frame Buffer   | Screen (pixel)
++------------------+
