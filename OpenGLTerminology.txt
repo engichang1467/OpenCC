@@ -1,0 +1,21 @@
+A Pixel is an area unit of color
+    Every Pixel has a red, green, blue, and alpha component (or 4 floating-point values) 
+
+A Vertex is a set of attributes.
+    At the least, a vertex is a coordinate position in space.
+    Ex. 2D will have a X and Y coordinate
+        3D will have an X, Y , and Z coordinate
+
+A Frame is a Frame of Animation
+    With GLFW Library, our code will typically run at about 60 frames/second
+    Each frame we execute a draw loop (or main loop)
+
+A Framebuffer is an array of pixels. 
+    This is the image that you actually see on your screen
+    There are 2 Framebuffers: the front and the back
+    We swap these buffers every frame of animation, so the new buffer you see is the last one to be written to
+    Filling these buffers is called rendering
+
+OpenGL specifies its own datatypes
+    ex. GLubyte, GLuint, GLfloat, etc.
+    GL_UNSIGNED_BYTE, GL_UNSIGNED_INT, GL_FLOAT.
