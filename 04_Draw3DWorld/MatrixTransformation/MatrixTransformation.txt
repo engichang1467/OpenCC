@@ -1,0 +1,14 @@
+
+Matrix - array of numbers that can be multiplied by another array
+
+
+Matrices transform vertex positions
+
+* We can scale rotate or translate vertex positions
+* We can remap them to different coordinate system
+* We can project them onto the screen
+
+| a11 a12 a13 a14 |   | v1 |   | a11v1 + a12v2 + a13v3 + a14v4 | 
+| a21 a22 a23 a24 | * | v2 | = | a21v1 + a22v2 + a23v3 + a24v4 | 
+| a31 a32 a33 a34 |   | v3 |   | a31v1 + a32v2 + a33v3 + a34v4 |
+| a41 a42 a43 a44 |   | v4 |   | a41v1 + a42v2 + a43v3 + a44v4 |

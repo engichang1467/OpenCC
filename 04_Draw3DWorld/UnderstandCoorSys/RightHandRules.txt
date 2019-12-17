@@ -1,0 +1,14 @@
+Right hand rules
+
+
+y
+|
+z--x
+
+Use your right hand
+
+thumb = x
+index = y
+middle = z
+
+

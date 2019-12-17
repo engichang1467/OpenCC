@@ -1,0 +1,27 @@
+Model Transform
+
+* Order matters! scale then rotate then translate
+
+scale -> rotate -> translate
+
+* last matrix to be multiplied is applied first!
+
+matrix = translate * rotate * scale
+
+
+View Transform
+
+    This takes our world space coordinates, that have been already scaled, rotated, and translated, and re-positions them in what we call "eye space," 
+
+    eye space - position of the vertices relative to our camera
+
+
+    eye --> target   up  
+
+
+
+summary
+
+model matrix - transform local space to world space
+view matrix - transform from world space to eye space
+projection matrix - transform eye space to clip space
